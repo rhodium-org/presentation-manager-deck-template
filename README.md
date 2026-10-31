@@ -30,7 +30,11 @@ statement on them rests on a claim with a source. Replace them with yours.
    ```
 
    Change `assets/mark.png` to your own mark: a square PNG, white on a transparent ground.
-4. **Point presentation-manager at it.** You need to run a tenant, or ask whoever does.
+4. **Make it live: sign the series.** presentation-manager publishes a series only once its series item is
+   ratified by a person. In `idd`, run `tl-ratify -C . --by "Your Name"` and sign `SER-0001`, or sign it at
+   `https://table.iddn.uk/#/g/<owner>/<repo>/main/idd?show=now`. Commit and push the signature. Sign it again
+   whenever you change the series.
+5. **Point presentation-manager at it.** You need to run a tenant, or ask whoever does.
    - If the repository is not in an organisation presentation-manager already reads, give your tenant a GitHub token
      for its organisation or account on **Tenant settings**. A fine-grained token with read access to the
      repository's contents is enough.
@@ -59,8 +63,10 @@ their attributes are the public
 
 ## Signatures
 
-The series says `approval: none`, so the deck is published as soon as it is pushed: good for a first deck. To have
-nothing published until a person has read and signed it, set `approval=person` on `SER-0001`. Then sign with
+The series item is always signed by a person before anything is published (step 4). Beyond that, the series says
+`approval: none`, so each deck is published as soon as it is pushed, without its slides, claims and sources being
+signed: good for a first deck. To have nothing published until a person has read and signed every item a deck shows,
+set `approval=person` on `SER-0001`. Then sign with
 `tl-ratify` in `idd`, or at `https://table.iddn.uk/#/g/<owner>/<repo>/main/idd?show=now`. presentation-manager
 shows a deck waiting for signatures as a draft to its tenant's admins and reviewers.
 
