@@ -1,0 +1,15 @@
+uid: CLM-0002
+type: claim
+status: proposed
+title: Items are written and checked with tl, and signed with tl-ratify
+text: throughline's tl creates and changes items and checks the graph is sound; tl-ratify
+  shows each item before a person signs it.
+normative: true
+links:
+- target: THR-0001
+  type: derives_from
+- target: SRC-0002
+  type: derives_from
+attrs:
+  role: guidance
+  origin: hybrid

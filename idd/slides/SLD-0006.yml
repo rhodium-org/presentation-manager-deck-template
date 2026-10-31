@@ -1,0 +1,18 @@
+uid: SLD-0006
+type: slide
+status: proposed
+title: Your turn
+text: |-
+  accent: Now make it yours.
+  body: Change the series and this edition to your subject, replace these slides with yours, and give every claim its source.
+  notes: That is all there is to it. Change the series and the edition to your own subject, replace these six slides with yours, and make sure every claim has its source. Then push, and watch your deck appear.
+normative: true
+links:
+- target: THR-0002
+  type: derives_from
+- target: CLM-0003
+  type: derives_from
+attrs:
+  order: 6
+  layout: takeaway
+  origin: hybrid

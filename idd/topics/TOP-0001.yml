@@ -1,0 +1,9 @@
+uid: TOP-0001
+type: topic
+status: proposed
+title: Decks kept as throughline graphs
+text: A deck's words, its sources and the claims they support held as small, signed
+  items with permanent identifiers.
+normative: true
+attrs:
+  origin: hybrid

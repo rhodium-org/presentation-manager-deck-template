@@ -1,0 +1,17 @@
+uid: THR-0001
+type: thread
+status: proposed
+title: Make it yours
+text: Three steps from a fork to a deck in your tenant.
+normative: true
+links:
+- target: ED-0001
+  type: derives_from
+- target: AUD-0001
+  type: derives_from
+- target: TOP-0001
+  type: relates
+attrs:
+  order: 1
+  notes: First, how to get from this repository to a deck of your own.
+  origin: hybrid

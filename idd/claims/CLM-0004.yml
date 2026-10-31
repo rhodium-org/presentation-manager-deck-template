@@ -1,0 +1,15 @@
+uid: CLM-0004
+type: claim
+status: proposed
+title: A signed item that changes shows what moved before it is signed again
+text: When a ratified item's text changes, throughline marks its signature stale
+  and shows the difference to the person asked to sign it again.
+normative: true
+links:
+- target: THR-0002
+  type: derives_from
+- target: SRC-0002
+  type: derives_from
+attrs:
+  role: guidance
+  origin: hybrid

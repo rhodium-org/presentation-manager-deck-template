@@ -1,0 +1,15 @@
+uid: CLM-0005
+type: claim
+status: proposed
+title: This deck is six slides resting on five claims and three sources
+text: The graph of this deck holds one series, one edition, two threads, six slides,
+  five claims and three sources.
+normative: true
+links:
+- target: THR-0002
+  type: derives_from
+- target: SRC-0003
+  type: derives_from
+attrs:
+  role: guidance
+  origin: hybrid

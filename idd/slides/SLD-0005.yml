@@ -1,0 +1,21 @@
+uid: SLD-0005
+type: slide
+status: proposed
+title: This deck, counted
+text: |-
+  eyebrow: What this deck is made of
+  bar: Every slide you see rests on something you can check.
+  - 6 | Slides | Each an item with an order, a layout and its speaker notes.
+  - 5 | Claims | What the slides state, each linked to the slides that state it.
+  - 3 | Sources | Where the claims come from, each with its address and the date it was checked.
+  notes: Here is this deck, counted. Six slides, each an item with its order, its layout and these notes. Five claims, which are what the slides state. And three sources, each with an address and the date it was checked. Open the idd folder and you can follow any slide down to where it came from. Your deck should be the same.
+normative: true
+links:
+- target: THR-0002
+  type: derives_from
+- target: CLM-0005
+  type: derives_from
+attrs:
+  order: 5
+  layout: stats
+  origin: hybrid

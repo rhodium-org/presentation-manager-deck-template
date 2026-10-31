@@ -1,0 +1,17 @@
+uid: CLM-0001
+type: claim
+status: proposed
+title: A deck graph holds one series, its editions, their threads and slides, and
+  the claims and sources behind them
+text: 'The presentation format standard sets out the kinds of item a deck graph holds
+  and how they link: a series, editions that derive from it, threads and slides that
+  derive from an edition, claims that derive from sources.'
+normative: true
+links:
+- target: THR-0001
+  type: derives_from
+- target: SRC-0001
+  type: derives_from
+attrs:
+  role: guidance
+  origin: hybrid

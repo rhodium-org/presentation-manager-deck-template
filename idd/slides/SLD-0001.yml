@@ -1,0 +1,21 @@
+uid: SLD-0001
+type: slide
+status: proposed
+title: Three steps to a deck of your own
+text: |-
+  eyebrow: Make it yours
+  bar: Nothing is built by hand: you change the graph, the application makes the deck.
+  - Fork | Use this repository as a template in your own GitHub organisation or account.
+  - Change | Write your series, edition, slides, claims and sources with tl, in the idd folder.
+  - Point | In presentation-manager, add the repository, branch and folder under Decks of their own.
+  notes: Three steps. First, fork: use this repository as a template, in your own organisation or your own account. Second, change it: everything the deck says is in the idd folder, and you change it with tl rather than by editing files. Third, point presentation-manager at it: on the Decks of their own page, give the repository, the branch and the folder. From then on, every push is built again, in your tenant's look. Nothing on the slides is drawn by hand.
+normative: true
+links:
+- target: THR-0001
+  type: derives_from
+- target: CLM-0001
+  type: derives_from
+attrs:
+  order: 1
+  layout: cards
+  origin: hybrid

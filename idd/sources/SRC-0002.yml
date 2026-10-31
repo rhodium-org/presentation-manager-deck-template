@@ -1,0 +1,13 @@
+uid: SRC-0002
+type: source
+status: proposed
+title: throughline (README)
+text: 'The tool that keeps requirements and decks as graphs: tl to write and check
+  items, tl-ratify to sign them.'
+normative: true
+attrs:
+  url: https://github.com/rhodium-org/throughline
+  publisher: rhodium-org
+  checked: '2026-10-31'
+  found_via: web
+  origin: hybrid

@@ -1,0 +1,12 @@
+uid: AUD-0002
+type: interest
+status: proposed
+title: Why keep a deck as a graph?
+text: 'What a graph gives that a slide file does not: a source behind every claim,
+  a review before anything is published, and a history.'
+normative: true
+links:
+- target: SER-0001
+  type: derives_from
+attrs:
+  origin: hybrid

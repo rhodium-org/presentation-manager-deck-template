@@ -1,0 +1,16 @@
+uid: CLM-0003
+type: claim
+status: proposed
+title: Every claim on a slide derives from a source, with its address and when it
+  was checked
+text: A slide's figures and statements rest on claim items, and each claim on a source
+  item that records its address, publisher and the date it was checked.
+normative: true
+links:
+- target: THR-0002
+  type: derives_from
+- target: SRC-0001
+  type: derives_from
+attrs:
+  role: guidance
+  origin: hybrid

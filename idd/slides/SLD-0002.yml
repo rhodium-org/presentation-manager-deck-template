@@ -1,0 +1,21 @@
+uid: SLD-0002
+type: slide
+status: proposed
+title: What is in the graph
+text: |-
+  eyebrow: Where each part lives
+  - The series | Its name, audience, cover and look: idd/series/SER-0001.yml.
+  - The edition | This deck: its subject, its presenter and its speaker notes.
+  - Threads and slides | The sections of the deck and the slides in each, in order.
+  - Claims and sources | What each slide states, and where that comes from.
+  notes: Four kinds of item make this deck. The series holds its name, its audience and its cover. The edition is the deck itself, with its subject, presenter and notes. Threads are its sections, and slides belong to threads, each with an order and a layout. And underneath every slide are claims, each resting on a source. Open the idd folder and you will find one folder for each kind.
+normative: true
+links:
+- target: THR-0001
+  type: derives_from
+- target: CLM-0001
+  type: derives_from
+attrs:
+  order: 2
+  layout: rows
+  origin: hybrid

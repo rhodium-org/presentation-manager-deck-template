@@ -1,0 +1,23 @@
+uid: SER-0001
+type: series
+status: proposed
+title: Your first deck
+text: 'One deck that belongs to no series: what it says, who it is for and how it
+  looks are all held here, as a throughline graph, so it can be changed, checked
+  and signed like any requirement. Replace this text with what your deck is about.'
+normative: true
+attrs:
+  slug: your-first-deck
+  audience: Anyone making their first deck with presentation-manager, who has forked
+    this repository and wants to see how a deck is written down before writing their
+    own.
+  strapline: A deck kept as a graph
+  cover_title: Your first deck
+  cover_mark: assets/mark.png
+  cover_mark_alt: Three stacked slides, the front one with lines of text
+  approval: none
+  kind: training
+  max_slides: 12
+  review_days: 365
+  cover_layout: deck
+  origin: hybrid

@@ -1,0 +1,12 @@
+uid: SRC-0003
+type: source
+status: proposed
+title: This deck's own graph
+text: 'The idd folder of this repository: the items this deck is made from.'
+normative: true
+attrs:
+  url: https://github.com/rhodium-org/presentation-manager-deck-template/tree/main/idd
+  publisher: rhodium-org
+  checked: '2026-10-31'
+  found_via: web
+  origin: hybrid

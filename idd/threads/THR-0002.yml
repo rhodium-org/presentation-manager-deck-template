@@ -1,0 +1,17 @@
+uid: THR-0002
+type: thread
+status: proposed
+title: Keep it true
+text: Why each slide rests on a claim, and each claim on a source.
+normative: true
+links:
+- target: ED-0001
+  type: derives_from
+- target: AUD-0002
+  type: derives_from
+- target: TOP-0001
+  type: relates
+attrs:
+  order: 2
+  notes: Then, why a deck kept as a graph stays true as it changes.
+  origin: hybrid

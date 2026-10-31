@@ -1,0 +1,25 @@
+uid: ED-0001
+type: edition
+status: proposed
+title: 'Your first deck: fork it, change it, see it built'
+text: The one deck of this repository. It shows how a deck is written down as a graph,
+  how presentation-manager builds it, and what to change first. Replace it with your
+  own, or keep it beside your first edition as a reference.
+normative: true
+links:
+- target: SER-0001
+  type: derives_from
+attrs:
+  basis: graph
+  subject: Making a deck with presentation-manager
+  subject_kind: common
+  revision: 1
+  checked: '2026-10-31'
+  presenter: Your name
+  presented: '2026-11-02'
+  notes: 'This deck is the example in the presentation-manager deck template. It
+    explains itself: each slide is an item in the graph beside it, with the claim
+    it rests on and the source behind the claim. Fork the repository, change these
+    words to yours, and presentation-manager builds the deck again in your tenant''s
+    look.'
+  origin: hybrid

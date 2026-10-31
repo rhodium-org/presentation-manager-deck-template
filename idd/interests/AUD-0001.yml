@@ -1,0 +1,12 @@
+uid: AUD-0001
+type: interest
+status: proposed
+title: How do I get a deck of my own?
+text: What to fork, what to change, and how presentation-manager finds and builds
+  the deck.
+normative: true
+links:
+- target: SER-0001
+  type: derives_from
+attrs:
+  origin: hybrid

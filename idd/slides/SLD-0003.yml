@@ -1,0 +1,26 @@
+uid: SLD-0003
+type: slide
+status: proposed
+title: Change it with tl
+text: |-
+  eyebrow: The one rule
+  term: tl
+  lead: Every item is changed through tl, never by editing its file.
+  body: tl gives each item a permanent identifier, keeps its links, and checks the whole graph each time.
+  label: The commands you will use
+  listlead: From the idd folder:
+  bar: Run tl check before you push.
+  - tl new SLD to add a slide
+  - tl amend SLD-0003 to change one
+  - tl check to see the graph is sound
+  notes: There is one rule. Change items with tl, never by editing the yml files. tl gives every item an identifier that never changes, keeps the links between items, and checks the whole graph. You will use three commands most: tl new to add an item, tl amend to change one, and tl check before you push. If tl check is clean, presentation-manager can build the deck.
+normative: true
+links:
+- target: THR-0001
+  type: derives_from
+- target: CLM-0002
+  type: derives_from
+attrs:
+  order: 3
+  layout: definition
+  origin: hybrid

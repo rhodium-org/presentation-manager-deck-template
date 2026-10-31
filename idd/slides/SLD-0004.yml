@@ -1,0 +1,25 @@
+uid: SLD-0004
+type: slide
+status: proposed
+title: A deck kept as a graph
+text: |-
+  eyebrow: Why do it this way
+  left: In a slide file
+  right: In a graph
+  - L | A figure is typed onto a slide, and where it came from is in someone's memory.
+  - L | A change is a new file, and nobody can see what moved.
+  - R | A figure rests on a claim, and the claim on a source with its address and date.
+  - R | A change is a reviewed commit, and a signed item shows exactly what moved.
+  notes: Why keep a deck this way? In a slide file, a number is typed onto a slide and where it came from lives in someone's head. Change the deck, and you get a new file with no record of what moved. In a graph, every figure rests on a claim, and every claim on a source with its address and the date it was checked. And a change is a commit you can review, with every signed item showing exactly what moved since it was signed.
+normative: true
+links:
+- target: THR-0002
+  type: derives_from
+- target: CLM-0003
+  type: derives_from
+- target: CLM-0004
+  type: derives_from
+attrs:
+  order: 4
+  layout: compare
+  origin: hybrid

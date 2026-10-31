@@ -1,0 +1,16 @@
+name: check
+on:
+  push:
+    branches: [main]
+  pull_request:
+jobs:
+  graph:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install "throughline>=4.4.0"
+      - name: The deck's graph is sound
+        run: tl -C idd check

@@ -1,0 +1,13 @@
+uid: SRC-0001
+type: source
+status: proposed
+title: The presentation format standard (README)
+text: 'The public standard a deck graph is written in: the kinds of item it holds,
+  their attributes and their links.'
+normative: true
+attrs:
+  url: https://github.com/rhodium-org/throughline-presentation-standard
+  publisher: rhodium-org
+  checked: '2026-10-31'
+  found_via: web
+  origin: hybrid
