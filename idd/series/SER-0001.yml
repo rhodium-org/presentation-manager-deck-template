@@ -1,6 +1,6 @@
 uid: SER-0001
 type: series
-status: proposed
+status: ratified
 title: Your first deck
 text: 'One deck that belongs to no series: what it says, who it is for and how it
   looks are all held here, as a throughline graph, so it can be changed, checked
@@ -21,3 +21,29 @@ attrs:
   review_days: 365
   cover_layout: deck
   origin: hybrid
+ratifications:
+- by: Henry Grech-Cini
+  at: '2026-11-01T19:27:02Z'
+  fingerprint: sha256:2c049a29383c5219c1407254fbd18d4d115454aec3d439fb76691c7e32707244
+  content:
+    type: series
+    text: 'One deck that belongs to no series: what it says, who it is for and how
+      it looks are all held here, as a throughline graph, so it can be changed, checked
+      and signed like any requirement. Replace this text with what your deck is about.'
+    normative: true
+    derived: false
+    attrs:
+      approval: none
+      audience: Anyone making their first deck with presentation-manager, who has
+        forked this repository and wants to see how a deck is written down before
+        writing their own.
+      cover_layout: deck
+      cover_mark_alt: Three stacked slides, the front one with lines of text
+      cover_title: Your first deck
+      kind: training
+      marking: ''
+      max_slides: 12
+      motif_alt: ''
+      review_days: 365
+      slug: your-first-deck
+      strapline: A deck kept as a graph
