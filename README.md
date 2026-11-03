@@ -58,9 +58,9 @@ statement on them rests on a claim with a source. Replace them with yours.
 
 Each slide derives from its thread and the claims it states, and each claim from its sources. The kinds of item and
 their attributes are the public
-[presentation format standard](https://github.com/rhodium-org/throughline-presentation-standard) v2.1.0, composed in
+[presentation format standard](https://github.com/rhodium-org/throughline-presentation-standard) v2.2.0, composed in
 `idd/throughline.toml`. It declares every attribute presentation-manager reads, so the toml adds nothing and must
-not redeclare any of them. [standards.iddn.uk](https://standards.iddn.uk/#/g/rhodium-org/throughline-presentation-standard/v2.1.0)
+not redeclare any of them. [standards.iddn.uk](https://standards.iddn.uk/#/g/rhodium-org/throughline-presentation-standard/v2.2.0)
 explains what each kind of item holds, gives a brief to hand your AI, and reviews a repository against the standard.
 
 ## Signatures
