@@ -3,25 +3,9 @@ name = "deck"
 format_version = 4
 
 # The model the deck is written in: the public presentation standard, as schema.
-# Everything below adds to it; nothing redefines it.
+# It declares every attribute presentation-manager reads; nothing is added here.
 [[sources]]
 namespace = "presentation"
 url = "https://github.com/rhodium-org/throughline-presentation-standard"
-ref = "v1.0.0"
+ref = "v2.1.0"
 schema = true
-
-# What presentation-manager also reads, beyond the standard.
-[types.series]
-# person: a deck is published only once its items are signed; none: as soon as it is pushed
-attrs.approval = { type = "enum", values = ["person", "none"], required = true, normative = true }
-attrs.max_slides = { type = "int", normative = true }
-attrs.review_days = { type = "int", normative = true }
-
-[types.edition]
-attrs.approval = { type = "enum", values = ["person", "none"], normative = true }
-
-[types.thread]
-attrs.tone = { type = "enum", values = ["teal", "red", "green", "purple", "magenta"] }
-
-[types.source]
-attrs.found_via = { type = "enum", values = ["news-brief", "web"], required = true }

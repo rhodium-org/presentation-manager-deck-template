@@ -11,6 +11,6 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - run: pip install "throughline>=4.4.0"
+      - run: pip install "throughline>=4.6.2"
       - name: The deck's graph is sound
         run: tl -C idd check
