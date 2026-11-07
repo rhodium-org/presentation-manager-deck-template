@@ -7,5 +7,5 @@ format_version = 4
 [[sources]]
 namespace = "presentation"
 url = "https://github.com/rhodium-org/throughline-presentation-standard"
-ref = "v2.2.0"
+ref = "v2.3.0"
 schema = true
